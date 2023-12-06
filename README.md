@@ -14,9 +14,16 @@ The data for this model training were retrieved from kaggle.com. It is a manuall
 we are using a text classification model called martin-ha/toxic-comment-model (https://huggingface.co/martin-ha/toxic-comment-model) from huggingface.com. It has more than 1,000,000 downloads over the last month with 94% accuracy when tested with Jigsaw Unintended Bias in Toxicity Classification (https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data). It is a fine-tuned version of the DistilBERT model to classify toxic comments. 
 
 ### Conclusion
-- The model can detect toxicity in text with an accuracy of around 80%
-- Might not accurately predict data outside the dataset, as overfitting occurred (higher validation loss than training loss)
-- To improve, use a larger dataset, add more parameters, and use better hardware for a quicker training process.
+- The model can detect toxicity in text with an accuracy of around 80%.
+- Might not accurately predict data outside the dataset, as overfitting occurred (higher validation loss than training loss).
+- There is a limitation due to context dependency, language development, and subjectivity. 
+- To improve, use a larger dataset, add more parameters, and use better hardware for a faster and more effective training process.
+  
+### Future work
+- A multi-label classification to further specify the comments. eg. threat, insult, hatecrime.
+- Evaluate by checking unintended bias in the model by using ROC and F1 scores.
+- When tested with our own comments, we found that those that contain slightly negative words are marked as toxic, so they cannot do a more complex concept like sarcasm.
+
 
 ### Python Libraries
 pandas, transformers, datasets, torch, matplotlib, tqdm, NumPy, emoji, re, sklearn.model_selection, seaborn
