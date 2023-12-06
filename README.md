@@ -19,11 +19,7 @@ we are using a text classification model called martin-ha/toxic-comment-model (h
 - To improve, use a larger dataset, add more parameters, and use better hardware for a quicker training process.
 
 ### Python Libraries
-pandas, transformers, datasets, torch, matplotlib, tqdm, NumPy
-emoji
-re
-sklearn.model_selection
-seaborn
+pandas, transformers, datasets, torch, matplotlib, tqdm, NumPy, emoji, re, sklearn.model_selection, seaborn
 
 ### Contributors
 Nguyen Mai Linh (Sandy) 20229031
