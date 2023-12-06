@@ -11,7 +11,7 @@ Using pretrained models is very Convenient and Time-saving. There is no need to 
 The data for this model training were retrieved from kaggle.com. It is a manually labeled toxicity data collection with 1000 comments that were retrieved from YouTube videos concerning the 2014 Ferguson disturbance by Reihaneh Namdari (https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data). It has a 10.00 usability with 12.1K views.
 
 ### Model
-we are using a text classification model called martin-ha/toxic-comment-model (https://huggingface.co/martin-ha/toxic-comment-model) from huggingface.com. It has more than 1,000,000 downloads over the last month with 94% accuracy when tested with Jigsaw Unintended Bias in Toxicity Classification (https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data). It is a fine-tuned version of the DistilBERT model to classify toxic comments. 
+we are using a text classification model from huggingface.com, martin-ha/toxic-comment-model (https://huggingface.co/martin-ha/toxic-comment-model). It has more than 1,000,000 downloads over the last month with 94% accuracy when tested with Jigsaw Unintended Bias in Toxicity Classification (https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data). It is a fine-tuned version of the DistilBERT model to classify toxic comments. 
 
 ### Conclusion
 - The model can detect toxicity in text with an accuracy of around 80%.
