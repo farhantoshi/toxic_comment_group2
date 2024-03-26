@@ -29,6 +29,6 @@ we are using a text classification model from huggingface.com, martin-ha/toxic-c
 pandas, transformers, datasets, torch, matplotlib, tqdm, NumPy, emoji, re, sklearn.model_selection, seaborn
 
 ### Contributors
-Nguyen Mai Linh (Sandy) 20229031
-Farhan Toshi Hermawan 20229531
-Fariha Qorinatuz Zahra 21229529
+- Nguyen Mai Linh (Sandy) 20229031
+- Farhan Toshi Hermawan 20229531
+- Fariha Qorinatuz Zahra 21229529
